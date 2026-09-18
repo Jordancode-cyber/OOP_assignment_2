@@ -1,0 +1,47 @@
+UML stands for Unified Modelling language
+
+A UML Class diagram represents the static structure of a system by showing 
+its classes, attributes, methods, and relationships between classes.
+It is used to help visualize the strcture of a system with its given classes.
+They also show relationships between classes for example inheritance and dependency.
+
+Used in software design and system architecture planning.
+Helps in database modeling and representation of data structures.
+Useful for system documentation and maintenance.
+Widely used in object-oriented analysis and design.
+Commonly used in enterprise and large-scale application development.
+
+The three major sections of a UML class include;
+Name 
+Attributes
+Operations / Methods
+
+Attributes are represented in the second partition to show data variables
+
+Methods are represented in the third partition to show services a class provides
+
+Meaning of visibility symbols
++ represents public features visible to all classes
+# represents protected features visible to subclasses
+- represnts private features visible only within the class
+
+An association between a class represents how different classes connect and interact with each other
+with an system.
+
+Multiplicity specifies the number of posiible values for each instance in an attribute
+
+References:
+https://www.scribd.com/presentation/262668495/Advanced-Class-Modeling
+https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-class-diagrams/
+https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/
+
+c.
+classes selected;
+Student, StudentAccount, Transaction and CampusService
+
+Private Attributes denoted with (-)
+Public Interfaces denoted with (+) 
+
+Each Student can only own one and only one StudentAccount(1:1)
+Multiple Transactions can be made of one StudentAccount(1:M)
+Transactions are linked to one or many CampusServices(1:M)
